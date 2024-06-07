@@ -9,12 +9,6 @@ R = []
 
 def init():
     global graph, n
-    graph = [
-        [0, 1, 1, 0],
-        [1, 0, 1, 1],
-        [1, 1, 0, 1],
-        [0, 1, 1, 0]
-    ]
 
     with open("input.in", "r") as f:
         n = int(f.readline())
